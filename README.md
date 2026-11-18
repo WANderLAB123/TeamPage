@@ -1,6 +1,6 @@
-# wander lab
+# Wander Lab
 
-wander lab 的 GitHub Pages 主页，研究三维世界建模与自主推演。研究、成果和成员部分参考 [Arc Institute 的 Hsu Lab](https://arcinstitute.org/labs/hsulab)。
+Wander Lab 的 GitHub Pages 主页，研究三维世界建模与自主推演。研究、成果和成员部分参考 [Arc Institute 的 Hsu Lab](https://arcinstitute.org/labs/hsulab)。
 
 ## 替换内容
 
