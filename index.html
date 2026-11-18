@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Universe Lab 研究从有限观测重建三维世界，以及基于场景模型的数据生成、决策推演与智能体自主规划。">
+  <title>Universe Lab</title>
+  <link rel="stylesheet" href="./style.css?v=20261118-carousel">
+  <script defer src="./content.js?v=20261118-carousel"></script>
+  <script defer src="./site.js?v=20261118-carousel"></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="top" id="top">
+    <div class="wrap nav">
+      <a class="brand" href="#top"><span class="mark" aria-hidden="true">✳</span><span data-name>Universe Lab</span></a>
+      <nav aria-label="页面导航">
+        <a href="#research">研究</a><a href="#work">项目</a><a href="#people">成员</a><a href="#about">关于</a><a href="#contact">合作</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="headline">
+      <div class="hero-copy">
+        <div class="hero-heading"><p class="label">WORLD MODELS · SPATIAL INTELLIGENCE</p><h1 class="wordmark" data-name>Universe Lab</h1><h2 id="headline">世界模型与空间智能</h2></div>
+        <div class="hero-description">
+        <p id="intro" class="intro"></p>
+        <a class="button" href="#research">探索我们的研究 <span aria-hidden="true">↘</span></a></div>
+      </div>
+      <section id="hero-art" class="hero-art" aria-label="研究图片" aria-roledescription="轮播">
+        <div id="hero-track" class="hero-track" tabindex="0" aria-label="研究图片，左右滑动查看"></div>
+        <div id="hero-controls" class="hero-controls" hidden>
+          <button id="hero-previous" class="carousel-button" type="button" aria-label="上一张图片">←</button>
+          <div id="hero-dots" class="hero-dots" aria-label="选择图片"></div>
+          <button id="hero-next" class="carousel-button" type="button" aria-label="下一张图片">→</button>
+          <button id="hero-play" class="carousel-button" type="button" aria-label="暂停自动播放">Ⅱ</button>
+        </div>
+      </section>
+    </section>
+    <section class="vision wrap" aria-labelledby="vision-title">
+      <h2 id="vision-title">以世界模型理解环境<br>在交互中学习行动</h2>
+      <p id="vision-copy"></p>
+    </section>
+    <section class="section wrap" id="research" aria-labelledby="research-title">
+      <div class="section-heading"><p class="label">RESEARCH</p><h2 id="research-title">研究方向</h2></div>
+      <div class="research-grid" id="research-list"></div>
+    </section>
+    <section class="tinted" id="work" aria-labelledby="work-title">
+      <div class="section wrap">
+        <div class="section-heading"><p class="label">SELECTED WORK</p><h2 id="work-title">研究实践</h2></div>
+        <article class="project" aria-labelledby="project-title">
+          <h3 id="project-title"></h3>
+          <p id="project-description"></p>
+          <details class="project-details"><summary>查看研究流程与场景示例</summary><ol id="project-steps"></ol><p id="project-example"></p></details>
+        </article>
+        <div id="work-list"></div>
+      </div>
+    </section>
+    <section class="section wrap" id="people" aria-labelledby="people-title">
+      <div class="section-heading"><p class="label">PEOPLE</p><h2 id="people-title">一起探索的人</h2></div>
+      <div class="people-grid" id="people-list"></div>
+      <p id="people-empty" hidden>成员介绍将陆续更新。</p>
+    </section>
+    <section class="tinted" id="about" aria-labelledby="about-title">
+      <div class="section wrap">
+        <div class="section-heading"><p class="label">ABOUT UNIVERSE LAB</p><h2 id="about-title">我们如何做研究</h2></div>
+        <p id="about-copy"></p>
+        <div id="practices-list" class="practices-grid"></div>
+      </div>
+    </section>
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="section wrap">
+        <p class="label">COLLABORATE</p><h2 id="contact-title">交流与合作</h2>
+        <p id="contact-copy"></p>
+        <a id="contact-link" class="button" hidden>联系我们 <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap footer"><span data-name>Universe Lab</span><a href="#top">回到顶部 ↑</a></footer>
+  <noscript><p class="wrap">请启用 JavaScript 以加载研究与成员信息。</p></noscript>
+</body>
+</html>
